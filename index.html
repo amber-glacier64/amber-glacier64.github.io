@@ -1,0 +1,1677 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7086失效地址最新_失效监测社区,影像收录与线索追踪</title>
+<meta name="description" content="7086失效地址最新官方网站，专注影像链接失效监测与内容收录的垂直社区，提供创作者原创内容、失效线索汇总、企业动态与持续运营的内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b1f24'/%3E%3Cpath d='M18 20h10v24H18z' fill='%23ff5a3c'/%3E%3Cpath d='M34 20h12v5H34zM34 30h12v5H34zM34 40h12v4H34z' fill='%23e9eef5'/%3E%3C/svg%3E">
+<style>
+:root{
+  --k7-ink:#151a1f;
+  --k7-ink-2:#1f262e;
+  --k7-ink-3:#2b343e;
+  --k7-paper:#eef1f5;
+  --k7-paper-2:#ffffff;
+  --k7-line:#d5dbe3;
+  --k7-mute:#6b7683;
+  --k7-hot:#ff5a3c;
+  --k7-cyan:#31d0c6;
+  --k7-amber:#f5b642;
+  --k7-shadow:0 10px 30px rgba(21,26,31,.10);
+  --k7-radius:14px;
+  --k7-head-h:118px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--k7-head-h)}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  color:var(--k7-ink);
+  background:var(--k7-paper);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+h1,h2,h3,h4{margin:0;line-height:1.3}
+p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+
+/* ===== 吸顶头部 ===== */
+.k7-sticky{position:sticky;top:0;z-index:80}
+.k7-notice{
+  background:linear-gradient(90deg,#1b1f24 0%,#242c35 60%,#2d3742 100%);
+  color:#dfe6ee;font-size:13px;
+}
+.k7-notice-in{
+  max-width:1240px;margin:0 auto;padding:9px 20px;
+  display:flex;align-items:center;gap:12px;overflow:hidden;
+}
+.k7-notice-tag{
+  flex:none;background:var(--k7-hot);color:#fff;border-radius:4px;
+  font-size:12px;font-weight:700;padding:1px 8px;letter-spacing:.5px;
+}
+.k7-notice-text{
+  flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.k7-notice-text b{color:var(--k7-amber);font-weight:700}
+.k7-notice-more{flex:none;color:var(--k7-cyan);font-size:12.5px}
+.k7-notice-more:hover{text-decoration:underline}
+
+.k7-header{background:rgba(238,241,245,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--k7-line)}
+.k7-header-in{
+  max-width:1240px;margin:0 auto;padding:0 20px;
+  height:72px;display:flex;align-items:center;gap:22px;
+}
+.k7-logo{display:flex;align-items:center;gap:10px;flex:none}
+.k7-logo-mark{
+  width:38px;height:38px;border-radius:10px;background:var(--k7-ink);
+  display:grid;place-items:center;color:var(--k7-hot);font-weight:800;font-size:15px;
+  letter-spacing:-.5px;
+}
+.k7-logo-txt{display:flex;flex-direction:column;line-height:1.15}
+.k7-logo-txt strong{font-size:16.5px;letter-spacing:.5px}
+.k7-logo-txt span{font-size:11px;color:var(--k7-mute);letter-spacing:1.6px}
+
+.k7-nav{display:flex;gap:4px;flex:1}
+.k7-nav a{
+  padding:8px 12px;border-radius:8px;font-size:14.5px;color:var(--k7-ink-2);
+  transition:background .18s,color .18s;white-space:nowrap;
+}
+.k7-nav a:hover{background:#dde4ec;color:var(--k7-ink)}
+.k7-nav a.is-active{background:var(--k7-ink);color:#fff}
+
+.k7-search{position:relative;flex:none;width:246px}
+.k7-search input{
+  width:100%;height:38px;border:1px solid var(--k7-line);border-radius:10px;
+  padding:0 46px 0 14px;font-size:13.5px;background:#fff;color:var(--k7-ink);
+  outline:none;transition:border-color .18s,box-shadow .18s;
+}
+.k7-search input:focus{border-color:var(--k7-hot);box-shadow:0 0 0 3px rgba(255,90,60,.14)}
+.k7-search button{
+  position:absolute;right:4px;top:4px;height:30px;width:38px;border:0;border-radius:8px;
+  background:var(--k7-ink);color:#fff;font-size:13px;
+}
+.k7-search-tip{
+  position:absolute;left:0;right:0;top:44px;background:#fff;border:1px solid var(--k7-line);
+  border-radius:12px;box-shadow:var(--k7-shadow);padding:6px;display:none;z-index:90;
+  max-height:260px;overflow:auto;
+}
+.k7-search-tip.show{display:block}
+.k7-search-tip li{padding:8px 10px;border-radius:8px;font-size:13px;color:var(--k7-ink-2);display:flex;justify-content:space-between;gap:10px}
+.k7-search-tip li:hover{background:#f0f4f9}
+.k7-search-tip li em{font-style:normal;color:var(--k7-mute);font-size:12px;flex:none}
+.k7-search-empty{padding:12px;font-size:13px;color:var(--k7-mute);text-align:center}
+
+.k7-burger{
+  display:none;width:42px;height:38px;border:1px solid var(--k7-line);background:#fff;
+  border-radius:10px;flex-direction:column;justify-content:center;align-items:center;gap:4px;
+}
+.k7-burger span{width:18px;height:2px;background:var(--k7-ink);border-radius:2px}
+
+/* ===== 通用容器 ===== */
+.k7-wrap{max-width:1240px;margin:0 auto;padding:0 20px}
+.k7-sec{padding:64px 0}
+.k7-sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:30px;flex-wrap:wrap}
+.k7-kicker{
+  display:inline-flex;align-items:center;gap:8px;font-size:12.5px;letter-spacing:1.4px;
+  color:var(--k7-hot);font-weight:700;text-transform:uppercase;
+}
+.k7-kicker::before{content:"";width:22px;height:2px;background:var(--k7-hot);border-radius:2px}
+.k7-sec-head h2{font-size:clamp(22px,2.6vw,30px);margin-top:8px;letter-spacing:-.3px}
+.k7-sec-head p{color:var(--k7-mute);font-size:14px;max-width:520px;margin-top:6px}
+.k7-sec-head .k7-head-actions{display:flex;gap:10px;flex:none}
+
+.k7-btn{
+  display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 22px;border-radius:11px;
+  font-size:14.5px;font-weight:600;border:1px solid transparent;transition:transform .16s,box-shadow .16s,background .16s;
+}
+.k7-btn:hover{transform:translateY(-2px)}
+.k7-btn-primary{background:var(--k7-hot);color:#fff;box-shadow:0 8px 20px rgba(255,90,60,.28)}
+.k7-btn-primary:hover{box-shadow:0 12px 26px rgba(255,90,60,.36)}
+.k7-btn-ghost{background:transparent;border-color:var(--k7-line);color:var(--k7-ink)}
+.k7-btn-ghost:hover{background:#fff;border-color:var(--k7-ink)}
+.k7-btn-dark{background:var(--k7-ink);color:#fff}
+.k7-btn-sm{height:36px;padding:0 14px;font-size:13px;border-radius:9px}
+
+/* ===== 首屏 ===== */
+.k7-hero{
+  position:relative;overflow:hidden;color:#eef2f7;
+  background:radial-gradient(1100px 520px at 82% -10%,#313b47 0%,transparent 62%),
+             radial-gradient(800px 460px at 4% 108%,#29343f 0%,transparent 60%),
+             linear-gradient(160deg,#161b21 0%,#1e262f 55%,#232d38 100%);
+}
+.k7-hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+  background-size:64px 64px;mask-image:radial-gradient(circle at 50% 40%,#000,transparent 78%);
+}
+.k7-hero-in{
+  position:relative;z-index:2;max-width:1240px;margin:0 auto;padding:70px 20px 76px;
+  display:grid;grid-template-columns:1.12fr .88fr;gap:52px;align-items:center;
+}
+.k7-hero-badge{
+  display:inline-flex;align-items:center;gap:10px;font-size:12.5px;letter-spacing:1.2px;
+  color:#a9f0e9;background:rgba(49,208,198,.12);border:1px solid rgba(49,208,198,.34);
+  padding:5px 14px;border-radius:999px;margin-bottom:20px;
+}
+.k7-hero-badge i{width:6px;height:6px;border-radius:50%;background:var(--k7-cyan);display:inline-block;box-shadow:0 0 0 4px rgba(49,208,198,.18)}
+.k7-hero h1{
+  font-size:clamp(34px,4.6vw,56px);letter-spacing:-1.2px;line-height:1.14;font-weight:800;
+}
+.k7-hero h1 span{color:var(--k7-hot)}
+.k7-hero-lead{margin-top:20px;font-size:15.5px;color:#c3cdd8;max-width:620px}
+.k7-hero-lead b{color:#fff;font-weight:600}
+.k7-hero-btns{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.k7-hero-stats{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:38px;
+  border-top:1px solid rgba(255,255,255,.12);padding-top:22px;
+}
+.k7-hero-stats div strong{display:block;font-size:26px;letter-spacing:-.5px;color:#fff;font-weight:800}
+.k7-hero-stats div span{font-size:12.5px;color:#93a1b0;letter-spacing:.6px}
+
+.k7-hero-art{position:relative}
+.k7-hero-art-main{
+  border-radius:18px;overflow:hidden;border:1px solid rgba(255,255,255,.16);
+  box-shadow:0 26px 60px rgba(0,0,0,.48);
+}
+.k7-hero-art-main img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.k7-hero-art-tag{
+  position:absolute;left:14px;top:14px;background:rgba(21,26,31,.82);color:#fff;
+  font-size:12px;padding:5px 11px;border-radius:7px;backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.16);
+}
+.k7-hero-art-float{
+  position:absolute;right:-16px;bottom:-20px;background:#fff;color:var(--k7-ink);
+  border-radius:14px;padding:14px 16px;box-shadow:0 18px 40px rgba(0,0,0,.34);width:214px;
+}
+.k7-hero-art-float strong{font-size:13px;display:block}
+.k7-hero-art-float p{font-size:12px;color:var(--k7-mute);margin-top:4px}
+.k7-hero-art-float .k7-bar{height:5px;border-radius:4px;background:#e6ebf1;margin-top:10px;overflow:hidden}
+.k7-hero-art-float .k7-bar i{display:block;height:100%;width:72%;background:linear-gradient(90deg,var(--k7-hot),var(--k7-amber))}
+
+/* ===== 深度解析 ===== */
+.k7-about{background:#fff;border-bottom:1px solid var(--k7-line)}
+.k7-about-grid{display:grid;grid-template-columns:1fr 320px;gap:48px;align-items:start}
+.k7-about h2{font-size:clamp(22px,2.4vw,28px);margin-bottom:18px}
+.k7-about p{font-size:15px;color:#3a434d;margin-bottom:14px;text-align:justify}
+.k7-about p b{color:var(--k7-ink)}
+.k7-about-side{
+  background:linear-gradient(170deg,#f6f8fb,#e9eef5);border:1px solid var(--k7-line);
+  border-radius:16px;padding:22px;position:sticky;top:calc(var(--k7-head-h) + 18px);
+}
+.k7-about-side h3{font-size:15px;margin-bottom:14px;letter-spacing:.2px}
+.k7-about-side ul li{
+  display:flex;justify-content:space-between;gap:10px;font-size:13.5px;
+  padding:9px 0;border-bottom:1px dashed var(--k7-line);color:#3a434d;
+}
+.k7-about-side ul li:last-child{border-bottom:0}
+.k7-about-side ul li em{font-style:normal;color:var(--k7-hot);font-weight:700;flex:none}
+.k7-about-side .k7-side-note{font-size:12.5px;color:var(--k7-mute);margin-top:14px;line-height:1.7}
+
+/* ===== 焦点内容 ===== */
+.k7-focus-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:22px}
+.k7-focus-hero{
+  position:relative;border-radius:18px;overflow:hidden;border:1px solid var(--k7-line);
+  background:#fff;box-shadow:var(--k7-shadow);
+}
+.k7-focus-hero img{width:100%;aspect-ratio:16/10;object-fit:cover;transition:transform .5s}
+.k7-focus-hero:hover img{transform:scale(1.04)}
+.k7-focus-hero .k7-focus-body{padding:22px 24px 24px}
+.k7-focus-hero h3{font-size:21px;margin-bottom:8px}
+.k7-focus-hero p{font-size:14px;color:var(--k7-mute)}
+.k7-focus-meta{display:flex;align-items:center;gap:14px;margin-top:14px;font-size:12.5px;color:var(--k7-mute);flex-wrap:wrap}
+.k7-chip{
+  display:inline-block;font-size:11.5px;padding:3px 9px;border-radius:6px;
+  background:#eef2f7;color:#41505f;border:1px solid var(--k7-line);
+}
+.k7-chip-hot{background:rgba(255,90,60,.1);color:#c93b22;border-color:rgba(255,90,60,.28)}
+.k7-chip-cyan{background:rgba(49,208,198,.12);color:#0f7d76;border-color:rgba(49,208,198,.3)}
+
+.k7-focus-list{display:grid;grid-template-rows:repeat(2,1fr);gap:18px}
+.k7-focus-mini{
+  display:grid;grid-template-columns:128px 1fr;gap:14px;background:#fff;border:1px solid var(--k7-line);
+  border-radius:14px;padding:12px;transition:transform .18s,box-shadow .18s;align-items:center;
+}
+.k7-focus-mini:hover{transform:translateY(-3px);box-shadow:var(--k7-shadow)}
+.k7-focus-mini img{width:128px;aspect-ratio:16/10;object-fit:cover;border-radius:9px}
+.k7-focus-mini h4{font-size:14.5px;line-height:1.5}
+.k7-focus-mini p{font-size:12.5px;color:var(--k7-mute);margin-top:5px}
+.k7-focus-mini .k7-mini-foot{margin-top:7px;font-size:11.5px;color:#8b96a3;display:flex;gap:10px}
+
+/* ===== 视频流 ===== */
+.k7-flow{background:linear-gradient(180deg,#eef1f5,#e7ecf2)}
+.k7-filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.k7-filter{
+  border:1px solid var(--k7-line);background:#fff;border-radius:999px;padding:7px 16px;
+  font-size:13px;color:#41505f;transition:.16s;
+}
+.k7-filter:hover{border-color:var(--k7-ink)}
+.k7-filter.is-active{background:var(--k7-ink);color:#fff;border-color:var(--k7-ink)}
+.k7-video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.k7-card{
+  background:#fff;border:1px solid var(--k7-line);border-radius:16px;overflow:hidden;
+  display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s;
+}
+.k7-card:hover{transform:translateY(-5px);box-shadow:0 18px 36px rgba(21,26,31,.13)}
+.k7-card-thumb{position:relative;overflow:hidden}
+.k7-card-thumb img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:transform .5s}
+.k7-card:hover .k7-card-thumb img{transform:scale(1.05)}
+.k7-card-thumb .k7-play{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(.9);
+  width:48px;height:48px;border-radius:50%;background:rgba(21,26,31,.66);
+  border:1px solid rgba(255,255,255,.4);display:grid;place-items:center;color:#fff;
+  opacity:0;transition:.22s;backdrop-filter:blur(4px);
+}
+.k7-card:hover .k7-card-thumb .k7-play{opacity:1;transform:translate(-50%,-50%) scale(1)}
+.k7-card-thumb .k7-dur{
+  position:absolute;right:8px;bottom:8px;background:rgba(21,26,31,.82);color:#fff;
+  font-size:11.5px;padding:2px 7px;border-radius:5px;
+}
+.k7-card-thumb .k7-thumb-tag{
+  position:absolute;left:8px;top:8px;background:rgba(255,90,60,.94);color:#fff;
+  font-size:11px;padding:3px 8px;border-radius:5px;font-weight:600;
+}
+.k7-card-body{padding:15px 16px 16px;display:flex;flex-direction:column;flex:1}
+.k7-card-body h3{font-size:15.5px;line-height:1.5}
+.k7-card-body h3 a:hover{color:var(--k7-hot)}
+.k7-card-body p{font-size:13px;color:var(--k7-mute);margin-top:8px;flex:1}
+.k7-card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.k7-card-foot{
+  display:flex;align-items:center;justify-content:space-between;gap:8px;
+  margin-top:14px;padding-top:12px;border-top:1px solid #eef2f6;font-size:12px;color:var(--k7-mute);
+}
+.k7-author-mini{display:flex;align-items:center;gap:7px;min-width:0}
+.k7-avatar{
+  width:26px;height:26px;border-radius:50%;display:grid;place-items:center;
+  font-size:12px;font-weight:700;color:#fff;flex:none;letter-spacing:0;
+}
+.k7-author-mini span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.k7-actions{display:flex;gap:6px;flex:none}
+.k7-act{
+  border:1px solid var(--k7-line);background:#fff;border-radius:8px;height:28px;padding:0 8px;
+  font-size:11.5px;color:#4c5866;display:inline-flex;align-items:center;gap:5px;transition:.16s;
+}
+.k7-act:hover{border-color:var(--k7-hot);color:var(--k7-hot)}
+.k7-act.is-on{background:rgba(255,90,60,.1);border-color:rgba(255,90,60,.4);color:#c93b22}
+.k7-act svg{width:13px;height:13px}
+.k7-empty{grid-column:1/-1;padding:44px;text-align:center;color:var(--k7-mute);font-size:14px;background:#fff;border:1px dashed var(--k7-line);border-radius:16px}
+
+/* ===== 专题 ===== */
+.k7-topics{background:#fff}
+.k7-topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.k7-topic{
+  border:1px solid var(--k7-line);border-radius:16px;overflow:hidden;background:#f9fbfd;
+  transition:.2s;position:relative;
+}
+.k7-topic:hover{transform:translateY(-4px);box-shadow:var(--k7-shadow);border-color:#c3ccd7}
+.k7-topic img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.k7-topic-body{padding:16px 18px 18px}
+.k7-topic-body h3{font-size:16px;margin-bottom:6px}
+.k7-topic-body p{font-size:13px;color:var(--k7-mute)}
+.k7-topic-state{display:flex;align-items:center;justify-content:space-between;margin-top:13px;font-size:12px;color:var(--k7-mute)}
+.k7-topic-state b{color:#0f7d76;font-weight:700}
+.k7-topic-state b.k7-wait{color:#b07a12}
+
+/* ===== 创作者 ===== */
+.k7-creators{background:linear-gradient(180deg,#e7ecf2,#eef1f5)}
+.k7-creator-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.k7-creator{
+  background:#fff;border:1px solid var(--k7-line);border-radius:16px;padding:22px 18px;
+  text-align:center;transition:.2s;
+}
+.k7-creator:hover{transform:translateY(-4px);box-shadow:var(--k7-shadow);border-color:#c3ccd7}
+.k7-creator .k7-avatar-lg{
+  width:62px;height:62px;border-radius:20px;margin:0 auto 14px;display:grid;place-items:center;
+  font-size:22px;font-weight:800;color:#fff;box-shadow:0 8px 18px rgba(21,26,31,.16);
+}
+.k7-creator h3{font-size:15.5px}
+.k7-creator .k7-craft{font-size:12.5px;color:var(--k7-hot);margin-top:4px;font-weight:600}
+.k7-creator p{font-size:12.5px;color:var(--k7-mute);margin-top:10px;line-height:1.65;min-height:60px}
+.k7-creator-stats{display:flex;justify-content:center;gap:16px;margin-top:12px;padding-top:12px;border-top:1px dashed var(--k7-line);font-size:12px;color:#4c5866}
+.k7-creator-stats b{display:block;color:var(--k7-ink);font-size:14px}
+.k7-creator-btn{margin-top:14px;width:100%;justify-content:center}
+
+/* ===== 影像墙 ===== */
+.k7-wall{background:#fff}
+.k7-wall-grid{
+  display:grid;grid-template-columns:repeat(12,1fr);gap:12px;
+}
+.k7-wall-item{position:relative;border-radius:12px;overflow:hidden;border:1px solid var(--k7-line);background:#dfe5ec}
+.k7-wall-item img{width:100%;height:100%;object-fit:cover;transition:transform .45s}
+.k7-wall-item:hover img{transform:scale(1.06)}
+.k7-wall-item span{
+  position:absolute;left:0;right:0;bottom:0;padding:22px 12px 10px;font-size:12px;color:#fff;
+  background:linear-gradient(transparent,rgba(15,20,26,.82));
+}
+.k7-w-lg{grid-column:span 6;aspect-ratio:16/9}
+.k7-w-md{grid-column:span 3;aspect-ratio:1/1}
+.k7-w-sm{grid-column:span 2;aspect-ratio:1/1}
+
+/* ===== 评论 ===== */
+.k7-voices{background:linear-gradient(180deg,#eef1f5,#e9eef5)}
+.k7-voice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.k7-voice{
+  background:#fff;border:1px solid var(--k7-line);border-radius:16px;padding:20px;
+  display:flex;flex-direction:column;gap:12px;
+}
+.k7-voice-top{display:flex;align-items:center;gap:10px}
+.k7-voice-top strong{font-size:14px}
+.k7-voice-top small{display:block;color:var(--k7-mute);font-size:11.5px}
+.k7-voice p{font-size:13.5px;color:#3a434d;flex:1}
+.k7-voice-stars{color:var(--k7-amber);font-size:13px;letter-spacing:2px}
+
+/* ===== 动态 & 灵感 ===== */
+.k7-panel{background:#fff;border-bottom:1px solid var(--k7-line)}
+.k7-panel-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:44px;align-items:start}
+.k7-timeline{border-left:2px solid #e2e8ef;padding-left:22px;margin-top:6px}
+.k7-timeline li{position:relative;padding-bottom:22px}
+.k7-timeline li:last-child{padding-bottom:0}
+.k7-timeline li::before{
+  content:"";position:absolute;left:-29px;top:6px;width:12px;height:12px;border-radius:50%;
+  background:#fff;border:2px solid var(--k7-hot);
+}
+.k7-timeline time{font-size:12px;color:var(--k7-hot);font-weight:700;letter-spacing:.4px}
+.k7-timeline h4{font-size:14.5px;margin:4px 0 4px}
+.k7-timeline p{font-size:13px;color:var(--k7-mute)}
+
+.k7-inspire{background:linear-gradient(165deg,#161b21,#232d38);color:#e9eef5;border-radius:18px;padding:26px 24px}
+.k7-inspire h3{font-size:17px;color:#fff}
+.k7-inspire > p{font-size:13px;color:#a9b5c2;margin-top:8px}
+.k7-inspire-list{margin-top:16px;display:grid;gap:10px}
+.k7-inspire-list li{
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:10px;
+  padding:11px 13px;font-size:13px;display:flex;gap:10px;align-items:flex-start;
+}
+.k7-inspire-list li i{
+  font-style:normal;flex:none;width:20px;height:20px;border-radius:6px;background:rgba(49,208,198,.2);
+  color:#8df0e8;display:grid;place-items:center;font-size:11px;font-weight:700;margin-top:1px;
+}
+.k7-inspire-list li b{display:block;color:#fff;font-weight:600;font-size:13px}
+.k7-inspire-list li span{color:#9dabb9;font-size:12px}
+
+/* ===== 伙伴 ===== */
+.k7-partners{background:#eef1f5;border-top:1px solid var(--k7-line)}
+.k7-partner-row{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.k7-partner{
+  background:#fff;border:1px solid var(--k7-line);border-radius:12px;padding:18px 10px;
+  text-align:center;font-size:13.5px;font-weight:600;color:#41505f;transition:.18s;
+}
+.k7-partner:hover{border-color:var(--k7-ink);transform:translateY(-3px)}
+.k7-partner small{display:block;font-weight:400;font-size:11px;color:var(--k7-mute);margin-top:4px}
+
+/* ===== FAQ ===== */
+.k7-faq{background:#fff}
+.k7-faq-list{max-width:900px;margin:0 auto;display:grid;gap:12px}
+.k7-faq details{
+  border:1px solid var(--k7-line);border-radius:12px;background:#f9fbfd;overflow:hidden;
+}
+.k7-faq details[open]{border-color:#c3ccd7;background:#fff;box-shadow:var(--k7-shadow)}
+.k7-faq summary{
+  padding:16px 20px;font-size:14.5px;font-weight:600;cursor:pointer;list-style:none;
+  display:flex;justify-content:space-between;gap:14px;align-items:center;
+}
+.k7-faq summary::-webkit-details-marker{display:none}
+.k7-faq summary::after{content:"+";font-size:20px;color:var(--k7-hot);line-height:1;flex:none}
+.k7-faq details[open] summary::after{content:"−"}
+.k7-faq details p{padding:0 20px 18px;font-size:13.5px;color:#3a434d}
+
+/* ===== 联系 ===== */
+.k7-contact{background:linear-gradient(160deg,#1b1f24,#26303a);color:#e9eef5}
+.k7-contact-in{
+  display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center;
+}
+.k7-contact h2{font-size:clamp(22px,2.6vw,30px);color:#fff}
+.k7-contact p{font-size:14px;color:#a9b5c2;margin-top:12px;max-width:520px}
+.k7-contact-btns{display:flex;gap:12px;margin-top:24px;flex-wrap:wrap}
+.k7-contact-card{
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:24px;
+}
+.k7-contact-card h3{font-size:15px;color:#fff;margin-bottom:14px}
+.k7-contact-card ul li{display:flex;justify-content:space-between;gap:12px;font-size:13px;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.k7-contact-card ul li:last-child{border-bottom:0}
+.k7-contact-card ul li span{color:#9dabb9}
+
+/* ===== 页脚 ===== */
+.k7-footer{background:#12161b;color:#8b96a3;font-size:13px}
+.k7-footer-in{max-width:1240px;margin:0 auto;padding:44px 20px 30px}
+.k7-footer-top{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:28px;padding-bottom:28px;border-bottom:1px solid rgba(255,255,255,.1)}
+.k7-footer-brand strong{color:#fff;font-size:16px;letter-spacing:.5px}
+.k7-footer-brand p{margin-top:10px;line-height:1.8;font-size:12.5px;color:#7e8a97}
+.k7-footer-col h4{color:#dfe6ee;font-size:13.5px;margin-bottom:12px}
+.k7-footer-col ul li{padding:5px 0}
+.k7-footer-col ul li a:hover{color:var(--k7-cyan)}
+.k7-footer-bottom{
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  padding-top:20px;font-size:12px;color:#6b7683;
+}
+
+/* ===== 回顶 / Toast / 弹窗 ===== */
+.k7-top{
+  position:fixed;right:22px;bottom:26px;width:46px;height:46px;border-radius:50%;
+  background:var(--k7-ink);color:#fff;border:0;display:grid;place-items:center;
+  box-shadow:0 10px 26px rgba(0,0,0,.28);opacity:0;pointer-events:none;transition:.24s;z-index:85;
+}
+.k7-top.show{opacity:1;pointer-events:auto;transform:translateY(-4px)}
+
+.k7-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);z-index:200;
+  background:rgba(21,26,31,.94);color:#fff;font-size:13.5px;padding:11px 22px;border-radius:10px;
+  opacity:0;pointer-events:none;transition:.26s;backdrop-filter:blur(6px);box-shadow:0 14px 30px rgba(0,0,0,.3);
+}
+.k7-toast.show{opacity:1;transform:translate(-50%,0)}
+
+.k7-modal{
+  position:fixed;inset:0;z-index:190;display:none;place-items:center;padding:20px;
+  background:rgba(12,16,20,.62);backdrop-filter:blur(3px);
+}
+.k7-modal.show{display:grid}
+.k7-modal-box{
+  background:#fff;border-radius:18px;max-width:520px;width:100%;padding:26px;
+  box-shadow:0 30px 70px rgba(0,0,0,.34);max-height:88vh;overflow:auto;
+  animation:k7pop .22s ease;
+}
+@keyframes k7pop{from{transform:translateY(14px) scale(.97);opacity:0}to{transform:none;opacity:1}}
+.k7-modal-box h3{font-size:18px;margin-bottom:6px}
+.k7-modal-box .k7-modal-sub{font-size:13px;color:var(--k7-mute);margin-bottom:16px}
+.k7-modal-box label{display:block;font-size:12.5px;font-weight:600;margin:12px 0 6px;color:#41505f}
+.k7-modal-box input,.k7-modal-box textarea,.k7-modal-box select{
+  width:100%;border:1px solid var(--k7-line);border-radius:10px;padding:10px 12px;
+  font-size:13.5px;font-family:inherit;outline:none;background:#f9fbfd;color:var(--k7-ink);
+}
+.k7-modal-box input:focus,.k7-modal-box textarea:focus,.k7-modal-box select:focus{
+  border-color:var(--k7-hot);background:#fff;box-shadow:0 0 0 3px rgba(255,90,60,.12);
+}
+.k7-modal-box textarea{min-height:96px;resize:vertical}
+.k7-modal-foot{display:flex;justify-content:flex-end;gap:10px;margin-top:20px}
+.k7-modal-close{
+  position:absolute;right:18px;top:14px;border:0;background:transparent;font-size:22px;color:#9dabb9;line-height:1;
+}
+.k7-modal-box{position:relative}
+
+.k7-author-modal-avatar{width:64px;height:64px;border-radius:18px;display:grid;place-items:center;color:#fff;font-size:22px;font-weight:800;margin-bottom:14px}
+.k7-author-modal-stats{display:flex;gap:22px;margin:14px 0;padding:14px 0;border-top:1px dashed var(--k7-line);border-bottom:1px dashed var(--k7-line)}
+.k7-author-modal-stats div b{display:block;font-size:17px}
+.k7-author-modal-stats div span{font-size:12px;color:var(--k7-mute)}
+
+/* ===== 响应式 ===== */
+@media (max-width:1080px){
+  .k7-hero-in{grid-template-columns:1fr;gap:40px}
+  .k7-about-grid{grid-template-columns:1fr;gap:28px}
+  .k7-about-side{position:static}
+  .k7-video-grid{grid-template-columns:repeat(2,1fr)}
+  .k7-creator-grid{grid-template-columns:repeat(2,1fr)}
+  .k7-topic-grid{grid-template-columns:repeat(2,1fr)}
+  .k7-panel-grid{grid-template-columns:1fr;gap:32px}
+  .k7-partner-row{grid-template-columns:repeat(3,1fr)}
+  .k7-contact-in{grid-template-columns:1fr;gap:30px}
+  .k7-footer-top{grid-template-columns:1fr 1fr}
+  .k7-voice-grid{grid-template-columns:repeat(2,1fr)}
+  .k7-focus-grid{grid-template-columns:1fr}
+}
+@media (max-width:860px){
+  :root{--k7-head-h:112px}
+  .k7-nav{
+    position:absolute;left:0;right:0;top:100%;background:#f4f7fa;border-bottom:1px solid var(--k7-line);
+    flex-direction:column;padding:10px 16px 16px;gap:2px;display:none;box-shadow:0 16px 30px rgba(21,26,31,.12);
+  }
+  .k7-nav.open{display:flex}
+  .k7-nav a{padding:11px 12px}
+  .k7-header-in{position:relative;gap:12px}
+  .k7-search{width:auto;flex:1}
+  .k7-burger{display:flex;order:3}
+  .k7-wall-grid .k7-w-lg{grid-column:span 12}
+  .k7-wall-grid .k7-w-md{grid-column:span 6}
+  .k7-wall-grid .k7-w-sm{grid-column:span 4}
+}
+@media (max-width:680px){
+  .k7-sec{padding:44px 0}
+  .k7-hero-in{padding:48px 20px 56px}
+  .k7-hero-stats{grid-template-columns:repeat(3,1fr);gap:8px}
+  .k7-hero-stats div strong{font-size:20px}
+  .k7-hero-stats div span{font-size:11px}
+  .k7-hero-art-float{display:none}
+  .k7-video-grid{grid-template-columns:1fr}
+  .k7-topic-grid{grid-template-columns:1fr}
+  .k7-creator-grid{grid-template-columns:1fr}
+  .k7-voice-grid{grid-template-columns:1fr}
+  .k7-partner-row{grid-template-columns:repeat(2,1fr)}
+  .k7-footer-top{grid-template-columns:1fr}
+  .k7-focus-mini{grid-template-columns:104px 1fr}
+  .k7-focus-mini img{width:104px}
+  .k7-wall-grid .k7-w-md{grid-column:span 12;aspect-ratio:16/9}
+  .k7-wall-grid .k7-w-sm{grid-column:span 6}
+  .k7-search{order:4;flex-basis:100%}
+  .k7-header-in{height:auto;padding:12px 16px;flex-wrap:wrap}
+  :root{--k7-head-h:128px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="k7-sticky">
+  <div class="k7-notice">
+    <div class="k7-notice-in">
+      <span class="k7-notice-tag">官方发布</span>
+      <p class="k7-notice-text">新增 <b>「失效地址线索库·11月合辑」</b>，收录 38 条可回溯的有效线索；创作者入驻通道同步开放。</p>
+      <a class="k7-notice-more" href="#k7-news">查看动态 →</a>
+    </div>
+  </div>
+  <header class="k7-header">
+    <div class="k7-header-in">
+      <a class="k7-logo" href="#k7-top">
+        <span class="k7-logo-mark">7086</span>
+        <span class="k7-logo-txt"><strong>7086失效地址最新</strong><span>OFFICIAL VIDEO PORTAL</span></span>
+      </a>
+      <nav class="k7-nav" id="k7-nav">
+        <a href="#k7-top" class="is-active">首页</a>
+        <a href="#k7-focus">焦点内容</a>
+        <a href="#k7-flow">影像流</a>
+        <a href="#k7-topics">专题企划</a>
+        <a href="#k7-creators">创作者</a>
+        <a href="#k7-news">企业动态</a>
+        <a href="#k7-faq">帮助</a>
+        <a href="#k7-contact">联系</a>
+      </nav>
+      <form class="k7-search" id="k7-search" autocomplete="off">
+        <input type="search" id="k7-search-input" placeholder="搜索失效线索 / 创作者 / 专题" aria-label="搜索内容">
+        <button type="submit" aria-label="搜索">搜索</button>
+        <ul class="k7-search-tip" id="k7-search-tip"></ul>
+      </form>
+      <button class="k7-burger" id="k7-burger" aria-label="展开导航" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+</div>
+
+<main id="k7-top">
+
+  <!-- 首屏 -->
+  <section class="k7-hero">
+    <div class="k7-hero-in">
+      <div>
+        <span class="k7-hero-badge"><i></i>官方网站 · 持续运营 · 品牌正版内容</span>
+        <h1>7086失效地址最新</h1>
+        <p class="k7-hero-lead">
+          一个专注影像链接失效监测与内容收录的品牌官网。我们把零散的失效线索整理成可回溯的档案，把创作者的真实记录沉淀为可检索的精品内容，让每一次「找不到」都有迹可循。
+        </p>
+        <div class="k7-hero-btns">
+          <a class="k7-btn k7-btn-primary" href="#k7-flow">浏览影像流</a>
+          <a class="k7-btn k7-btn-ghost" href="#k7-about" style="color:#e9eef5;border-color:rgba(255,255,255,.28)">了解品牌故事</a>
+          <button class="k7-btn k7-btn-dark" data-k7-open="submit">投稿线索</button>
+        </div>
+        <div class="k7-hero-stats">
+          <div><strong>12,860</strong><span>已归档线索</span></div>
+          <div><strong>486</strong><span>入驻创作者</span></div>
+          <div><strong>72h</strong><span>平均核查周期</span></div>
+        </div>
+      </div>
+      <div class="k7-hero-art">
+        <div class="k7-hero-art-main">
+          <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 480'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23232d38'/%3E%3Cstop offset='1' stop-color='%23141920'/%3E%3C/linearGradient%3E%3ClinearGradient id='g2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23ff5a3c'/%3E%3Cstop offset='1' stop-color='%23f5b642'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='480' fill='url(%23g1)'/%3E%3Cg stroke='%233a4551' stroke-width='1'%3E%3Cpath d='M0 120h640M0 240h640M0 360h640M160 0v480M320 0v480M480 0v480'/%3E%3C/g%3E%3Ccircle cx='470' cy='165' r='96' fill='none' stroke='%2331d0c6' stroke-width='2' opacity='.8'/%3E%3Ccircle cx='470' cy='165' r='64' fill='none' stroke='%2331d0c6' stroke-width='1.2' opacity='.5'/%3E%3Cpath d='M470 96v138M401 165h138' stroke='%2331d0c6' stroke-width='1.2' opacity='.45'/%3E%3Ccircle cx='470' cy='165' r='9' fill='%23ff5a3c'/%3E%3Crect x='60' y='300' width='230' height='14' rx='7' fill='url(%23g2)'/%3E%3Crect x='60' y='330' width='150' height='10' rx='5' fill='%2342505d'/%3E%3Crect x='60' y='352' width='190' height='10' rx='5' fill='%2342505d'/%3E%3Cpath d='M60 90h60M60 104h96' stroke='%23ffffff' stroke-width='5' opacity='.85' stroke-linecap='round'/%3E%3Cpath d='M60 120h44' stroke='%23ff5a3c' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E" alt="7086失效地址最新官网品牌主视觉：失效线索追踪网格与信号标记">
+        </div>
+        <span class="k7-hero-art-tag">线索追踪 · 实时归档</span>
+        <div class="k7-hero-art-float">
+          <strong>本周核查完成度</strong>
+          <p>已复核 214 条，剩余 63 条</p>
+          <div class="k7-bar"><i></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 品牌深度解析 -->
+  <section class="k7-sec k7-about" id="k7-about">
+    <div class="k7-wrap">
+      <div class="k7-about-grid">
+        <div>
+          <span class="k7-kicker">品牌故事与定位解析</span>
+          <h2>我们如何理解「7086失效地址最新」这件事</h2>
+          <p>
+            <b>7086失效地址最新</b>并不是一个简单的链接集合，它更像是一座持续运转的档案馆。在影像内容高速生产又高速消失的今天，一个地址从可访问到失效，往往只需要一次迁移、一次改版、一次账号调整。真正麻烦的地方在于：失效之后，没有人知道它曾经存在过，也没有人记得它原本指向什么。我们做的事情，就是把这个「消失的瞬间」记录下来，并且尽量还原它背后的内容脉络。作为深耕影像收录垂直领域的品牌官网，我们把线索核查做成了标准化流程：从用户提交、机器初筛、人工复核，到最终归档与公开展示，每一步都有迹可循。
+          </p>
+          <p>
+            很多人第一次接触这个关键词，是因为在某个深夜找不到曾经看过的一段影像。那种挫败感非常具体：你记得画面，记得声音，记得当时的情绪，却唯独找不到地址。<b>7086失效地址最新</b>希望成为这种挫败感的终点。我们鼓励创作者把自己的作品备份信息、发布记录、平台迁移公告主动登记进来，也鼓励普通用户把遇到的失效情况提交给我们。这些零散的信息经过整理，会形成一张不断更新的线索网络。每一条线索都不是孤立的，它会和相似的影像、相同的作者、相近的时间段产生关联，最终拼成一段相对完整的影像记忆。
+          </p>
+          <p>
+            在内容生态的建设上，我们坚持「真实、可回溯、有温度」三个原则。真实意味着不编造、不夸大，每一条线索都标注来源与核查状态；可回溯意味着我们保留修改记录与失效时间轴，允许任何人查证；有温度意味着我们不把失效当成冷冰冰的数据，而是把它看作一段段被中断的观看体验。正因如此，我们把大量精力投入到创作者故事的记录中——他们为什么发布、为什么迁移、为什么坚持，这些叙述让地址不再只是字符，而成为可以被理解的选择。
+          </p>
+          <p>
+            作为企业级品牌门户，<b>7086失效地址最新</b>同时承担着社区运营的职责。我们设有固定的专题企划节奏，每月围绕一个影像主题组织线索征集与创作者访谈；我们开放投稿通道，任何用户都可以提交线索、撰写观察笔记、参与话题讨论；我们也与多家内容机构、独立工作室保持合作，共同维护一份尽可能完整的中文影像索引。这些工作看起来琐碎，却构成了平台值得信赖的基础。用户首选我们的原因，往往不是因为我们收录得最多，而是因为我们标注得最清楚。
+          </p>
+          <p>
+            在技术层面，我们持续优化线索核查的效率。目前系统会对提交内容进行初步的格式校验与重复检测，减少无效提交；人工团队则负责判断线索的价值与可信度，并给出公开说明。我们也在尝试用更友好的方式呈现失效前后的对比，让用户一眼就能看懂「这条地址曾经指向什么，现在变成了什么」。这些改进并不炫技，但确实降低了理解成本，也让更多人愿意参与进来。
+          </p>
+          <p>
+            我们清楚地知道，<b>7086失效地址最新</b>这个关键词本身带着一种急迫感——用户想要的是「最新」，是此刻仍然有效的信息。因此我们把更新频率写进了运营规范：线索库每日整理、专题每月更新、企业动态按周发布。我们不承诺百分之百的即时性，但我们承诺每一条公开信息都经过核查，并标注它最后一次被确认的时间。这种克制，是我们对「官方」两个字最基本的理解。
+          </p>
+          <p>
+            未来，我们希望把这份索引做得更细：为每一类影像建立独立的归档路径，为每一位长期投稿的用户建立贡献档案，为每一次大型平台迁移保留完整的说明文档。我们相信，影像的价值不只在被观看的那一刻，也在于它被记住的方式。<b>7086失效地址最新</b>愿意做那个负责记住的角色，把散落的地址、中断的观看、坚持的创作者，重新连接成一张有秩序的网。
+          </p>
+        </div>
+        <aside class="k7-about-side">
+          <h3>平台速览</h3>
+          <ul>
+            <li><span>线索库总量</span><em>12,860 条</em></li>
+            <li><span>本月新增</span><em>+418 条</em></li>
+            <li><span>人工复核率</span><em>100%</em></li>
+            <li><span>合作机构</span><em>26 家</em></li>
+            <li><span>专题企划</span><em>每月 1 期</em></li>
+            <li><span>最近更新</span><em>2026-11-19</em></li>
+          </ul>
+          <p class="k7-side-note">所有公开线索均标注核查时间与来源说明，欢迎监督与纠错。品牌官网内容持续运营中。</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点内容 -->
+  <section class="k7-sec" id="k7-focus">
+    <div class="k7-wrap">
+      <div class="k7-sec-head">
+        <div>
+          <span class="k7-kicker">焦点内容</span>
+          <h2>本周值得完整看完的影像与观察</h2>
+          <p>由编辑团队与社区共同推选，覆盖线索追踪、创作幕后与行业观察三个方向。</p>
+        </div>
+        <div class="k7-head-actions">
+          <button class="k7-btn k7-btn-ghost k7-btn-sm" data-k7-open="report">反馈问题</button>
+          <a class="k7-btn k7-btn-dark k7-btn-sm" href="#k7-flow">全部内容</a>
+        </div>
+      </div>
+
+      <div class="k7-focus-grid">
+        <article class="k7-focus-hero">
+          <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3Cdefs%3E%3ClinearGradient id='f1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ff5a3c'/%3E%3Cstop offset='.55' stop-color='%23e04a2f'/%3E%3Cstop offset='1' stop-color='%23232d38'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='500' fill='url(%23f1)'/%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.28' stroke-width='1.4'%3E%3Cpath d='M0 380L200 250 380 330 560 190 800 300'/%3E%3Cpath d='M0 430L180 320 400 400 620 260 800 370'/%3E%3C/g%3E%3Ccircle cx='560' cy='190' r='14' fill='%23fff'/%3E%3Ccircle cx='560' cy='190' r='34' fill='none' stroke='%23fff' stroke-opacity='.6'/%3E%3Crect x='60' y='70' width='250' height='20' rx='10' fill='%23ffffff' opacity='.9'/%3E%3Crect x='60' y='108' width='170' height='12' rx='6' fill='%23ffffff' opacity='.5'/%3E%3Cpath d='M580 420l40-24v48z' fill='%23ffffff' opacity='.9'/%3E%3C/svg%3E" alt="焦点内容封面：失效地址迁移路线图与关键节点标记">
+          <div class="k7-focus-body">
+            <div class="k7-focus-meta">
+              <span class="k7-chip k7-chip-hot">深度观察</span>
+              <span class="k7-chip">线索追踪</span>
+              <span>2026-11-17</span>
+              <span>12 分钟</span>
+            </div>
+            <h3 style="margin-top:10px">一次平台迁移之后：472 条地址在 72 小时内发生了什么</h3>
+            <p>我们把同一批次失效的地址放在同一张时间轴上，试图回答一个具体问题——当内容集体搬迁，用户还能不能沿着旧路径找回它。文中附有完整的核查方法与可复用的追踪模板。</p>
+            <div class="k7-focus-meta" style="margin-top:16px">
+              <div class="k7-author-mini">
+                <span class="k7-avatar" style="background:#ff5a3c">林</span>
+                <span>林致远 · 观察编辑</span>
+              </div>
+              <span>阅读 8,420</span>
+              <span>收藏 1,206</span>
+            </div>
+          </div>
+        </article>
+
+        <div class="k7-focus-list">
+          <article class="k7-focus-mini">
+            <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200'%3E%3Cdefs%3E%3ClinearGradient id='f2' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2331d0c6'/%3E%3Cstop offset='1' stop-color='%231f5f68'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='320' height='200' fill='url(%23f2)'/%3E%3Cg stroke='%23ffffff' stroke-opacity='.45' stroke-width='2' fill='none'%3E%3Crect x='40' y='52' width='96' height='62' rx='8'/%3E%3Cpath d='M56 84l18-16 14 12 18-20'/%3E%3C/g%3E%3Ccircle cx='248' cy='72' r='26' fill='%23ffffff' opacity='.22'/%3E%3Cpath d='M214 150h72' stroke='%23ffffff' stroke-opacity='.7' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M60 146h96M60 162h64' stroke='%23ffffff' stroke-opacity='.5' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E" alt="焦点内容封面：创作者在剪辑台前整理素材的影像记录">
+            <div>
+              <span class="k7-chip k7-chip-cyan">创作幕后</span>
+              <h4 style="margin-top:6px">剪掉 40 分钟之后，这位创作者留下了什么</h4>
+              <p>跟拍一位独立影像作者从粗剪到成片的完整过程。</p>
+              <div class="k7-mini-foot"><span>顾南枝</span><span>11-15</span><span>播放 6,318</span></div>
+            </div>
+          </article>
+          <article class="k7-focus-mini">
+            <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200'%3E%3Cdefs%3E%3ClinearGradient id='f3' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23f5b642'/%3E%3Cstop offset='1' stop-color='%23a35f14'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='320' height='200' fill='url(%23f3)'/%3E%3Cg fill='%23ffffff' opacity='.85'%3E%3Ccircle cx='90' cy='70' r='8'/%3E%3Ccircle cx='140' cy='96' r='5'/%3E%3Ccircle cx='200' cy='62' r='7'/%3E%3Ccircle cx='250' cy='110' r='4'/%3E%3C/g%3E%3Cg stroke='%23ffffff' stroke-opacity='.5' stroke-width='1.5' fill='none'%3E%3Cpath d='M90 70L140 96 200 62 250 110'/%3E%3Cpath d='M90 70L200 62'/%3E%3C/g%3E%3Crect x='36' y='140' width='180' height='8' rx='4' fill='%23ffffff' opacity='.65'/%3E%3Crect x='36' y='158' width='120' height='8' rx='4' fill='%23ffffff' opacity='.4'/%3E%3C/svg%3E" alt="焦点内容封面：地址关系网络与关联线索节点示意图">
+            <div>
+              <span class="k7-chip k7-chip-hot">行业观察</span>
+              <h4 style="margin-top:6px">为什么有的地址失效之后还能被找回来</h4>
+              <p>拆解归档、命名与备份习惯对可追溯性的影响。</p>
+              <div class="k7-mini-foot"><span>何叙白</span><span>11-13</span><span>阅读 5,970</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 影像流 -->
+  <section class="k7-sec k7-flow" id="k7-flow">
+    <div class="k7-wrap">
+      <div class="k7-sec-head">
+        <div>
+          <span class="k7-kicker">影像流</span>
+          <h2>最新收录与社区热门</h2>
+          <p>共 9 条精品内容，支持按题材筛选。所有条目均标注来源与核查状态。</p>
+        </div>
+        <div class="k7-head-actions">
+          <button class="k7-btn k7-btn-ghost k7-btn-sm" data-k7-open="submit">上传作品</button>
+        </div>
+      </div>
+
+      <div class="k7-filters" id="k7-filters">
+        <button class="k7-filter is-active" data-filter="all">全部</button>
+        <button class="k7-filter" data-filter="线索">线索追踪</button>
+        <button class="k7-filter" data-filter="幕后">创作幕后</button>
+        <button class="k7-filter" data-filter="访谈">人物访谈</button>
+        <button class="k7-filter" data-filter="技巧">实用技巧</button>
+        <button class="k7-filter" data-filter="文化">在地文化</button>
+      </div>
+
+      <div class="k7-video-grid" id="k7-video-grid">
+
+        <article class="k7-card" data-cat="线索">
+          <div class="k7-card-thumb">
+            <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231f262e'/%3E%3Cstop offset='1' stop-color='%233a4551'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v1)'/%3E%3Cg stroke='%23ff5a3c' stroke-width='2' fill='none'%3E%3Cpath d='M60 200L150 130 240 170 330 90 420 130'/%3E%3Ccircle cx='150' cy='130' r='6' fill='%23ff5a3c'/%3E%3Ccircle cx='330' cy='90' r='6' fill='%23ff5a3c'/%3E%3C/g%3E%3Cpath d='M60 56h160' stroke='%23ffffff' stroke-opacity='.8' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M60 78h100' stroke='%23ffffff' stroke-opacity='.35' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E" alt="视频封面：三个月线上地址迁移追踪时间轴">
+            <span class="k7-thumb-tag">新收录</span>
+            <span class="k7-dur">11:24</span>
+            <span class="k7-play" aria-hidden="true">▶</span>
+          </div>
+          <div class="k7-card-body">
+            <h3><a href="#k7-flow">三个月追踪：一批地址迁移的完整时间轴</a></h3>
+            <p>逐日记录一次集体迁移的经过，附核查笔记与失败样本说明。</p>
+            <div class="k7-card-tags"><span class="k7-chip">线索追踪</span><span class="k7-chip">方法</span></div>
+            <div class="k7-card-foot">
+              <div class="k7-author-mini"><span class="k7-avatar" style="background:#ff5a3c">林</span><span>林致远</span></div>
+              <div class="k7-actions">
+                <button class="k7-act" data-like aria-pressed="false" aria-label="点赞">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 22V10l5-8 2 2-1 6h6l-2 12z"/></svg>
+                  <b data-like-num>128</b>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="k7-card" data-cat="幕后">
+          <div class="k7-card-thumb">
+            <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%2331d0c6'/%3E%3Cstop offset='1' stop-color='%23123f45'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v2)'/%3E%3Cg fill='%23ffffff' opacity='.18'%3E%3Crect x='40' y='40' width='120' height='80' rx='6'/%3E%3Crect x='40' y='140' width='120' height='80' rx='6'/%3E%3Crect x='180' y='40' width='260' height='180' rx='8'/%3E%3C/g%3E%3Cg stroke='%23ffffff' stroke-width='2' opacity='.8'%3E%3Cpath d='M60 190l30-24 24 18 30-30'/%3E%3Cpath d='M210 90h180M210 116h120M210 142h150'/%3E%3C/g%3E%3Ccircle cx='390' cy='190' r='22' fill='%23ffffff' opacity='.9'/%3E%3Cpath d='M384 182l14 8-14 8z' fill='%231f5f68'/%3E%3C/svg%3E" alt="视频封面：剪辑软件时间线前的双手与素材片段">
+            <span class="k7-dur">08:42</span>
+            <span class="k7-play" aria-hidden="true">▶</span>
+          </div>
+          <div class="k7-card-body">
+            <h3><a href="#k7-flow">从 4 小时素材到 9 分钟成片：一次真实的剪辑取舍</a></h3>
+            <p>完整呈现粗剪、删减与重排过程，讨论「留下什么」的判断标准。</p>
+            <div class="k7-card-tags"><span class="k7-chip">创作幕后</span><span class="k7-chip">剪辑</span></div>
+            <div class="k7-card-foot">
+              <div class="k7-author-mini"><span class="k7-avatar" style="background:#0f7d76">顾</span><span>顾南枝</span></div>
+              <div class="k7-actions">
+                <button class="k7-act" data-like aria-pressed="false" aria-label="点赞">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 22V10l5-8 2 2-1 6h6l-2 12z"/></svg>
+                  <b data-like-num>96</b>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="k7-card" data-cat="访谈">
+          <div class="k7-card-thumb">
+            <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v3' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f5b642'/%3E%3Cstop offset='1' stop-color='%237a4a10'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v3)'/%3E%3Ccircle cx='150' cy='130' r='52' fill='%23ffffff' opacity='.9'/%3E%3Cpath d='M132 112a20 20 0 0140 0v10a20 20 0 01-40 0z' fill='%237a4a10' opacity='.8'/%3E%3Cpath d='M118 186c8-22 26-34 46-34s40 12 48 34z' fill='%237a4a10' opacity='.6'/%3E%3Cg stroke='%23ffffff' stroke-width='3' opacity='.85' stroke-linecap='round'%3E%3Cpath d='M250 100h160M250 128h120M250 156h150M250 184h90'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：人物访谈场景与对话文字排版">
+            <span class="k7-dur">15:06</span>
+            <span class="k7-play" aria-hidden="true">▶</span>
+          </div>
+          <div class="k7-card-body">
+            <h3><a href="#k7-flow">访谈｜坚持做备份的人，后来都怎么样了</a></h3>
+            <p>与三位长期归档者聊了聊习惯、成本与意外的收获。</p>
+            <div class="k7-card-tags"><span class="k7-chip">人物访谈</span><span class="k7-chip">习惯</span></div>
+            <div class="k7-card-foot">
+              <div class="k7-author-mini"><span class="k7-avatar" style="background:#b07a12">何</span><span>何叙白</span></div>
+              <div class="k7-actions">
+                <button class="k7-act" data-like aria-pressed="false" aria-label="点赞">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 22V10l5-8 2 2-1 6h6l-2 12z"/></svg>
+                  <b data-like-num>214</b>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="k7-card" data-cat="技巧">
+          <div class="k7-card-thumb">
+            <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v4' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23232d38'/%3E%3Cstop offset='1' stop-color='%234a5a6b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v4)'/%3E%3Cg stroke='%2331d0c6' stroke-width='2' fill='none'%3E%3Crect x='52' y='52' width='150' height='100' rx='10'/%3E%3Crect x='212' y='52' width='90' height='100' rx='10'/%3E%3Crect x='52' y='166' width='90' height='56' rx='8'/%3E%3Crect x='152' y='166' width='150' height='56' rx='8'/%3E%3C/g%3E%3Cpath d='M92 92h70M92 116h44' stroke='%23ffffff' stroke-opacity='.7' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E" alt="视频封面：地址归档模板与命名规则示意图">
+            <span class="k7-dur">06:18</span>
+            <span class="k7-play" aria-hidden="true">▶</span>
+          </div>
+          <div class="k7-card-body">
+            <h3><a href="#k7-flow">一份可复用的地址归档模板，以及它的四个坑</a></h3>
+            <p>从命名规则到字段设计，手把手搭一套自己的索引表。</p>
+            <div class="k7-card-tags"><span class="k7-chip">实用技巧</span><span class="k7-chip">模板</span></div>
+            <div class="k7-card-foot">
+              <div class="k7-author-mini"><span class="k7-avatar" style="background:#41505f">沈</span><span>沈知微</span></div>
+              <div class="k7-actions">
+                <button class="k7-act" data-like aria-pressed="false" aria-label="点赞">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 22V10l5-8 2 2-1 6h6l-2 12z"/></svg>
+                  <b data-like-num>73</b>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="k7-card" data-cat="文化">
+          <div class="k7-card-thumb">
+            <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v5' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23e05a3a'/%3E%3Cstop offset='.6' stop-color='%238e2f1c'/%3E%3Cstop offset='1' stop-color='%232b1a15'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v5)'/%3E%3Cg fill='none' stroke='%23f5d6a8' stroke-width='2' opacity='.8'%3E%3Cpath d='M60 210c40-70 80-70 120 0'/%3E%3Cpath d='M200 210c40-90 80-90 120 0'/%3E%3Cpath d='M340 210c30-60 60-60 90 0'/%3E%3C/g%3E%3Ccircle cx='380' cy='70' r='30' fill='%23f5b642' opacity='.85'/%3E%3Cpath d='M60 70h130' stroke='%23ffffff' stroke-opacity='.8' stroke-width='5' stroke-linecap='round'/%3E%3Cpath d='M60 92h84' stroke='%23ffffff' stroke-opacity='.45' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E" alt="视频封面：旧城街巷与老式招牌的在地文化影像">
+            <span class="k7-dur">13:35</span>
+            <span class="k7-play" aria-hidden="true">▶</span>
+          </div>
+          <div class="k7-card-body">
+            <h3><a href="#k7-flow">旧街巷里的影像记忆：一座小城的十年记录</a></h3>
+            <p>本地拍摄者用十年素材，留下一条街的变迁轨迹。</p>
+            <div class="k7-card-tags"><span class="k7-chip">在地文化</span><span class="k7-chip">记录</span></div>
+            <div class="k7-card-foot">
+              <div class="k7-author-mini"><span class="k7-avatar" style="background:#8e2f1c">周</span><span>周予安</span></div>
+              <div class="k7-actions">
+                <button class="k7-act" data-like aria-pressed="false" aria-label="点赞">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 22V10l5-8 2 2-1 6h6l-2 12z"/></svg>
+                  <b data-like-num>342</b>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="k7-card" data-cat="线索">
+          <div class="k7-card-thumb">
+            <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v6' x1='0' y1='1' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23172530'/%3E%3Cstop offset='1' stop-color='%232f4757'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v6)'/%3E%3Cg stroke='%2331d0c6' stroke-width='2' fill='none' opacity='.85'%3E%3Ccircle cx='240' cy='135' r='70'/%3E%3Ccircle cx='240' cy='135' r='44'/%3E%3Cpath d='M240 65v140M170 135h140'/%3E%3C/g%3E%3Ccircle cx='240' cy='135' r='8' fill='%23ff5a3c'/%3E%3Cg fill='%23ffffff' opacity='.5'%3E%3Crect x='50' y='46' width='90' height='6' rx='3'/%3E%3Crect x='50' y='62' width='60' height='6' rx='3'/%3E%3Crect x='340' y='206' width='90' height='6' rx='3'/%3E%3Crect x='370' y='222' width='60' height='6' rx='3'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：地址失效雷达图与异常节点高亮">
+            <span class="k7-dur">09:57</span>
+            <span class="k7-play" aria-hidden="true">▶</span>
+          </div>
+          <div class="k7-card-body">
+            <h3><a href="#k7-flow">失效前的 6 个信号：一份可观察的预警清单</a></h3>
+            <p>从加载速度到返回状态，整理出可提前察觉的变化。</p>
+            <div class="k7-card-tags"><span class="k7-chip">线索追踪</span><span class="k7-chip">预警</span></div>
+            <div class="k7-card-foot">
+              <div class="k7-author-mini"><span class="k7-avatar" style="background:#1f5f68">林</span><span>林致远</span></div>
+              <div class="k7-actions">
+                <button class="k7-act" data-like aria-pressed="false" aria-label="点赞">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 22V10l5-8 2 2-1 6h6l-2 12z"/></svg>
+                  <b data-like-num>187</b>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="k7-card" data-cat="幕后">
+          <div class="k7-card-thumb">
+            <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v7' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234b3f6e'/%3E%3Cstop offset='1' stop-color='%231d2330'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v7)'/%3E%3Cg fill='%23c9b6ff' opacity='.85'%3E%3Crect x='60' y='60' width='8' height='150' rx='4'/%3E%3Crect x='90' y='100' width='8' height='70' rx='4'/%3E%3Crect x='120' y='80' width='8' height='110' rx='4'/%3E%3Crect x='150' y='130' width='8' height='40' rx='4'/%3E%3Crect x='180' y='66' width='8' height='138' rx='4'/%3E%3C/g%3E%3Cpath d='M250 200L310 120 370 160 430 90' stroke='%23ff5a3c' stroke-width='3' fill='none'/%3E%3Ccircle cx='310' cy='120' r='5' fill='%23ff5a3c'/%3E%3C/svg%3E" alt="视频封面：音频波形与创作工作台夜景">
+            <span class="k7-dur">10:11</span>
+            <span class="k7-play" aria-hidden="true">▶</span>
+          </div>
+          <div class="k7-card-body">
+            <h3><a href="#k7-flow">深夜工作台：声音设计如何改变一段影像的情绪</a></h3>
+            <p>同一段画面配三种声音，直观感受情绪差异。</p>
+            <div class="k7-card-tags"><span class="k7-chip">创作幕后</span><span class="k7-chip">声音</span></div>
+            <div class="k7-card-foot">
+              <div class="k7-author-mini"><span class="k7-avatar" style="background:#4b3f6e">秦</span><span>秦可</span></div>
+              <div class="k7-actions">
+                <button class="k7-act" data-like aria-pressed="false" aria-label="点赞">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 22V10l5-8 2 2-1 6h6l-2 12z"/></svg>
+                  <b data-like-num>59</b>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="k7-card" data-cat="技巧">
+          <div class="k7-card-thumb">
+            <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v8' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%232d6b52'/%3E%3Cstop offset='1' stop-color='%23a8c4a2'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v8)'/%3E%3Cg stroke='%23ffffff' stroke-width='2' opacity='.85' fill='none'%3E%3Crect x='60' y='54' width='160' height='110' rx='8'/%3E%3Cpath d='M80 136l34-30 26 22 34-40 26 30'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='.75'%3E%3Crect x='250' y='80' width='170' height='10' rx='5'/%3E%3Crect x='250' y='104' width='130' height='10' rx='5'/%3E%3Crect x='250' y='128' width='150' height='10' rx='5'/%3E%3Crect x='250' y='152' width='100' height='10' rx='5'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：手写笔记与索引表格相结合的工作场景">
+            <span class="k7-dur">07:30</span>
+            <span class="k7-play" aria-hidden="true">▶</span>
+          </div>
+          <div class="k7-card-body">
+            <h3><a href="#k7-flow">别只收藏：让线索真正被用起来的三个动作</a></h3>
+            <p>从记录到复盘，把零散的信息变成可检索的资产。</p>
+            <div class="k7-card-tags"><span class="k7-chip">实用技巧</span><span class="k7-chip">复盘</span></div>
+            <div class="k7-card-foot">
+              <div class="k7-author-mini"><span class="k7-avatar" style="background:#2d6b52">沈</span><span>沈知微</span></div>
+              <div class="k7-actions">
+                <button class="k7-act" data-like aria-pressed="false" aria-label="点赞">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 22V10l5-8 2 2-1 6h6l-2 12z"/></svg>
+                  <b data-like-num>81</b>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="k7-card" data-cat="访谈">
+          <div class="k7-card-thumb">
+            <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v9' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23c94b62'/%3E%3Cstop offset='1' stop-color='%23301a28'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v9)'/%3E%3Ccircle cx='120' cy='110' r='40' fill='%23ffffff' opacity='.85'/%3E%3Ccircle cx='120' cy='110' r='40' fill='none' stroke='%23ffffff' stroke-opacity='.4' stroke-width='10'/%3E%3Ccircle cx='240' cy='150' r='28' fill='%23ffffff' opacity='.55'/%3E%3Ccircle cx='340' cy='90' r='22' fill='%23ffffff' opacity='.4'/%3E%3Cg stroke='%23ffffff' stroke-width='3' opacity='.7' stroke-linecap='round'%3E%3Cpath d='M200 220h220M200 240h140'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：创作者群像与访谈对话气泡">
+            <span class="k7-dur">14:22</span>
+            <span class="k7-play" aria-hidden="true">▶</span>
+          </div>
+          <div class="k7-card-body">
+            <h3><a href="#k7-flow">我们和五位新人创作者聊了聊「第一次发布」</a></h3>
+            <p>紧张、犹豫、被看见的瞬间，以及之后的坚持。</p>
+            <div class="k7-card-tags"><span class="k7-chip">人物访谈</span><span class="k7-chip">新人</span></div>
+            <div class="k7-card-foot">
+              <div class="k7-author-mini"><span class="k7-avatar" style="background:#c94b62">何</span><span>何叙白</span></div>
+              <div class="k7-actions">
+                <button class="k7-act" data-like aria-pressed="false" aria-label="点赞">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 22V10l5-8 2 2-1 6h6l-2 12z"/></svg>
+                  <b data-like-num>165</b>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="k7-sec k7-topics" id="k7-topics">
+    <div class="k7-wrap">
+      <div class="k7-sec-head">
+        <div>
+          <span class="k7-kicker">专题企划</span>
+          <h2>每月一期的深度整理</h2>
+          <p>围绕一个主题，把线索、访谈与影像组织成可读完的整体。</p>
+        </div>
+      </div>
+      <div class="k7-topic-grid">
+        <article class="k7-topic">
+          <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='t1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ff5a3c'/%3E%3Cstop offset='1' stop-color='%23331a14'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23t1)'/%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.5' stroke-width='2'%3E%3Cpath d='M40 210C120 120 180 120 240 210'/%3E%3Cpath d='M200 210c60-70 110-70 170 0'/%3E%3C/g%3E%3Crect x='40' y='54' width='170' height='14' rx='7' fill='%23ffffff' opacity='.9'/%3E%3Crect x='40' y='82' width='110' height='10' rx='5' fill='%23ffffff' opacity='.5'/%3E%3C/svg%3E" alt="专题封面：十一月线索合辑的路径与节点图形">
+          <div class="k7-topic-body">
+            <h3>十一月线索合辑：被中断的观看</h3>
+            <p>38 条可回溯线索，附核查说明与复现方法。</p>
+            <div class="k7-topic-state"><b>已更新 6 篇</b><span>持续更新中</span></div>
+          </div>
+        </article>
+        <article class="k7-topic">
+          <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='t2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%2331d0c6'/%3E%3Cstop offset='1' stop-color='%23123338'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23t2)'/%3E%3Cg stroke='%23ffffff' stroke-width='2' opacity='.8' fill='none'%3E%3Crect x='60' y='60' width='110' height='150' rx='8'/%3E%3Crect x='190' y='90' width='110' height='120' rx='8'/%3E%3Crect x='320' y='50' width='100' height='160' rx='8'/%3E%3C/g%3E%3Ccircle cx='115' cy='135' r='18' fill='%23ffffff' opacity='.85'/%3E%3C/svg%3E" alt="专题封面：创作者档案卡与备份流程示意">
+          <div class="k7-topic-body">
+            <h3>备份者的日常：习惯、成本与误会</h3>
+            <p>访谈 5 位长期归档者，讨论坚持背后的真实代价。</p>
+            <div class="k7-topic-state"><b>已完结 5 篇</b><span>2026-10</span></div>
+          </div>
+        </article>
+        <article class="k7-topic">
+          <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='t3' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f5b642'/%3E%3Cstop offset='1' stop-color='%235e3d0a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23t3)'/%3E%3Cg fill='%23ffffff' opacity='.8'%3E%3Crect x='60' y='180' width='40' height='50' rx='4'/%3E%3Crect x='120' y='140' width='40' height='90' rx='4'/%3E%3Crect x='180' y='100' width='40' height='130' rx='4'/%3E%3Crect x='240' y='150' width='40' height='80' rx='4'/%3E%3Crect x='300' y='120' width='40' height='110' rx='4'/%3E%3Crect x='360' y='70' width='40' height='160' rx='4'/%3E%3C/g%3E%3C/svg%3E" alt="专题封面：内容生命周期柱状图与阶段标注">
+          <div class="k7-topic-body">
+            <h3>内容生命周期：从发布到被遗忘</h3>
+            <p>用数据与案例讨论影像内容的时间尺度。</p>
+            <div class="k7-topic-state"><b class="k7-wait">筹备中</b><span>12 月上线</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者矩阵 -->
+  <section class="k7-sec k7-creators" id="k7-creators">
+    <div class="k7-wrap">
+      <div class="k7-sec-head">
+        <div>
+          <span class="k7-kicker">创作者矩阵</span>
+          <h2>长期在这里记录的人</h2>
+          <p>他们让线索库不只是数据，也是一段段具体的选择与坚持。</p>
+        </div>
+        <div class="k7-head-actions">
+          <button class="k7-btn k7-btn-primary k7-btn-sm" data-k7-open="submit">申请入驻</button>
+        </div>
+      </div>
+      <div class="k7-creator-grid">
+        <article class="k7-creator">
+          <div class="k7-avatar-lg" style="background:linear-gradient(135deg,#ff5a3c,#a8371f)">林</div>
+          <h3>林致远</h3>
+          <div class="k7-craft">线索追踪 · 深度观察</div>
+          <p>前媒体编辑，专注于把失效事件还原成可读的过程记录，擅长时间轴与证据链整理。</p>
+          <div class="k7-creator-stats"><div><b>126</b>作品</div><div><b>2.4万</b>关注</div></div>
+          <button class="k7-btn k7-btn-ghost k7-btn-sm k7-creator-btn" data-author="lin">查看档案</button>
+        </article>
+        <article class="k7-creator">
+          <div class="k7-avatar-lg" style="background:linear-gradient(135deg,#31d0c6,#0f6d76)">顾</div>
+          <h3>顾南枝</h3>
+          <div class="k7-craft">创作幕后 · 剪辑分享</div>
+          <p>独立影像作者，偏好把过程完整放出来，包括失败的尝试。作品克制、节奏缓慢。</p>
+          <div class="k7-creator-stats"><div><b>88</b>作品</div><div><b>1.9万</b>关注</div></div>
+          <button class="k7-btn k7-btn-ghost k7-btn-sm k7-creator-btn" data-author="gu">查看档案</button>
+        </article>
+        <article class="k7-creator">
+          <div class="k7-avatar-lg" style="background:linear-gradient(135deg,#f5b642,#9a6a12)">何</div>
+          <h3>何叙白</h3>
+          <div class="k7-craft">人物访谈 · 行业观察</div>
+          <p>擅长提问，也擅长等待回答。关注内容行业里那些不常被讨论的日常细节。</p>
+          <div class="k7-creator-stats"><div><b>64</b>作品</div><div><b>1.5万</b>关注</div></div>
+          <button class="k7-btn k7-btn-ghost k7-btn-sm k7-creator-btn" data-author="he">查看档案</button>
+        </article>
+        <article class="k7-creator">
+          <div class="k7-avatar-lg" style="background:linear-gradient(135deg,#6b7fd7,#2b3a72)">沈</div>
+          <h3>沈知微</h3>
+          <div class="k7-craft">实用技巧 · 工具模板</div>
+          <p>信息管理爱好者，制作过十余套公开模板，主张「先能用，再好看」。</p>
+          <div class="k7-creator-stats"><div><b>103</b>作品</div><div><b>2.1万</b>关注</div></div>
+          <button class="k7-btn k7-btn-ghost k7-btn-sm k7-creator-btn" data-author="shen">查看档案</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 影像墙 -->
+  <section class="k7-sec k7-wall">
+    <div class="k7-wrap">
+      <div class="k7-sec-head">
+        <div>
+          <span class="k7-kicker">影像墙</span>
+          <h2>社区作品墙</h2>
+          <p>来自投稿用户的静帧记录，题材与尺寸各不相同。</p>
+        </div>
+      </div>
+      <div class="k7-wall-grid">
+        <div class="k7-wall-item k7-w-lg">
+          <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='w1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232a3b4a'/%3E%3Cstop offset='1' stop-color='%230f1418'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23w1)'/%3E%3Cg stroke='%23ff5a3c' stroke-width='2' fill='none' opacity='.8'%3E%3Cpath d='M40 300L160 200 300 250 440 140 600 210'/%3E%3C/g%3E%3Cg fill='%2331d0c6'%3E%3Ccircle cx='160' cy='200' r='5'/%3E%3Ccircle cx='440' cy='140' r='5'/%3E%3C/g%3E%3Cpath d='M40 60h180' stroke='%23ffffff' stroke-opacity='.8' stroke-width='7' stroke-linecap='round'/%3E%3Cpath d='M40 86h110' stroke='%23ffffff' stroke-opacity='.4' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E" alt="作品墙大图：夜间线索追踪路线与节点记录">
+          <span>《夜行记录》· 林致远</span>
+        </div>
+        <div class="k7-wall-item k7-w-md">
+          <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 320'%3E%3Cdefs%3E%3ClinearGradient id='w2' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f5b642'/%3E%3Cstop offset='1' stop-color='%23714a10'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='320' height='320' fill='url(%23w2)'/%3E%3Ccircle cx='160' cy='140' r='58' fill='%23ffffff' opacity='.88'/%3E%3Cpath d='M110 230c14-28 30-40 50-40s36 12 50 40z' fill='%23714a10' opacity='.65'/%3E%3Cpath d='M60 60h80' stroke='%23ffffff' stroke-opacity='.8' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E" alt="作品墙中图：人物剪影与暖色光线记录">
+          <span>《午后》· 顾南枝</span>
+        </div>
+        <div class="k7-wall-item k7-w-md">
+          <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 320'%3E%3Cdefs%3E%3ClinearGradient id='w3' x1='1' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%2331d0c6'/%3E%3Cstop offset='1' stop-color='%230e353b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='320' height='320' fill='url(%23w3)'/%3E%3Cg stroke='%23ffffff' stroke-width='2' fill='none' opacity='.8'%3E%3Crect x='50' y='60' width='220' height='140' rx='10'/%3E%3Cpath d='M80 168l40-40 34 30 44-52 40 46'/%3E%3C/g%3E%3Crect x='50' y='224' width='150' height='10' rx='5' fill='%23ffffff' opacity='.7'/%3E%3C/svg%3E" alt="作品墙中图：档案表格与折线数据可视化">
+          <span>《索引》· 沈知微</span>
+        </div>
+        <div class="k7-wall-item k7-w-sm">
+          <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 220'%3E%3Cdefs%3E%3ClinearGradient id='w4' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23c94b62'/%3E%3Cstop offset='1' stop-color='%23341a24'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='220' height='220' fill='url(%23w4)'/%3E%3Ccircle cx='110' cy='96' r='38' fill='%23ffffff' opacity='.82'/%3E%3Cpath d='M40 190c14-30 40-44 70-44s56 14 70 44z' fill='%23ffffff' opacity='.35'/%3E%3C/svg%3E" alt="作品墙小图：暗红背景下的采访对象肖像">
+          <span>《对话》· 何叙白</span>
+        </div>
+        <div class="k7-wall-item k7-w-sm">
+          <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 220'%3E%3Cdefs%3E%3ClinearGradient id='w5' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232d6b52'/%3E%3Cstop offset='1' stop-color='%23101f19'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='220' height='220' fill='url(%23w5)'/%3E%3Cg fill='%23a8c4a2' opacity='.85'%3E%3Crect x='30' y='130' width='18' height='60' rx='4'/%3E%3Crect x='70' y='100' width='18' height='90' rx='4'/%3E%3Crect x='110' y='70' width='18' height='120' rx='4'/%3E%3Crect x='150' y='112' width='18' height='78' rx='4'/%3E%3C/g%3E%3C/svg%3E" alt="作品墙小图：绿色背景下的整理与归档记录">
+          <span>《整理》· 秦可</span>
+        </div>
+        <div class="k7-wall-item k7-w-sm">
+          <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 220'%3E%3Cdefs%3E%3ClinearGradient id='w6' x1='1' y1='1' x2='0' y2='0'%3E%3Cstop offset='0' stop-color='%234b3f6e'/%3E%3Cstop offset='1' stop-color='%23181d2a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='220' height='220' fill='url(%23w6)'/%3E%3Cpath d='M30 160L80 100 120 130 170 70 190 96' stroke='%23c9b6ff' stroke-width='3' fill='none'/%3E%3Ccircle cx='80' cy='100' r='6' fill='%23ff5a3c'/%3E%3Ccircle cx='170' cy='70' r='6' fill='%23ff5a3c'/%3E%3C/svg%3E" alt="作品墙小图：紫色调夜间轨迹与路径记录">
+          <span>《夜路》· 周予安</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 用户评价 -->
+  <section class="k7-sec k7-voices">
+    <div class="k7-wrap">
+      <div class="k7-sec-head">
+        <div>
+          <span class="k7-kicker">用户评价</span>
+          <h2>他们这样描述这里的体验</h2>
+          <p>来自投稿用户、长期读者与合作机构的真实反馈，未作修饰。</p>
+        </div>
+      </div>
+      <div class="k7-voice-grid">
+        <article class="k7-voice">
+          <div class="k7-voice-top">
+            <span class="k7-avatar" style="background:#ff5a3c">陈</span>
+            <div><strong>陈默</strong><small>投稿用户 · 使用 2 年</small></div>
+          </div>
+          <div class="k7-voice-stars">★★★★★</div>
+          <p>最打动我的是核查说明写得很细，不是简单告诉你「失效了」，而是告诉你什么时候失效、怎么发现的。这种诚实很难得。</p>
+        </article>
+        <article class="k7-voice">
+          <div class="k7-voice-top">
+            <span class="k7-avatar" style="background:#0f7d76">苏</span>
+            <div><strong>苏晚</strong><small>影像创作者 · 入驻 1 年</small></div>
+          </div>
+          <div class="k7-voice-stars">★★★★★</div>
+          <p>我的早期作品有两条地址已经打不开了，是这里的归档记录帮我找回了原始文件的线索。很难解释那种感觉，就像有人替你保存了一段记忆。</p>
+        </article>
+        <article class="k7-voice">
+          <div class="k7-voice-top">
+            <span class="k7-avatar" style="background:#b07a12">罗</span>
+            <div><strong>罗一川</strong><small>内容机构编辑</small></div>
+          </div>
+          <div class="k7-voice-stars">★★★★☆</div>
+          <p>作为行业工具很好用，专题企划的完成度超出预期。希望能继续扩充地域相关的线索分类，我们在做地方影像研究时会方便很多。</p>
+        </article>
+        <article class="k7-voice">
+          <div class="k7-voice-top">
+            <span class="k7-avatar" style="background:#4b3f6e">许</span>
+            <div><strong>许青禾</strong><small>长期读者 · 使用 3 年</small></div>
+          </div>
+          <div class="k7-voice-stars">★★★★★</div>
+          <p>界面不吵，读起来很舒服。我喜欢他们没有用那种夸张的标题去吸引点击，内容本身足够扎实。</p>
+        </article>
+        <article class="k7-voice">
+          <div class="k7-voice-top">
+            <span class="k7-avatar" style="background:#41505f">郑</span>
+            <div><strong>郑之遥</strong><small>高校研究者</small></div>
+          </div>
+          <div class="k7-voice-stars">★★★★☆</div>
+          <p>在做数字资料保存的课题时引用过这里的公开说明，格式规范、时间标注清楚，对学术写作很友好。建议后续开放更完整的时间筛选。</p>
+        </article>
+        <article class="k7-voice">
+          <div class="k7-voice-top">
+            <span class="k7-avatar" style="background:#2d6b52">简</span>
+            <div><strong>简明月</strong><small>新人创作者</small></div>
+          </div>
+          <div class="k7-voice-stars">★★★★★</div>
+          <p>第一次投稿就被认真回复了，编辑给了很具体的小建议，不是模板话。后来我就一直在这里更新了。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 企业动态 + 创作灵感 -->
+  <section class="k7-sec k7-panel" id="k7-news">
+    <div class="k7-wrap">
+      <div class="k7-panel-grid">
+        <div>
+          <span class="k7-kicker">企业动态</span>
+          <h2 style="margin:8px 0 20px;font-size:clamp(22px,2.4vw,28px)">官方发布与内容更新</h2>
+          <ul class="k7-timeline">
+            <li>
+              <time>2026-11-18</time>
+              <h4>「十一月线索合辑」正式上线</h4>
+              <p>收录 38 条可回溯线索，每条均附核查时间、来源说明与复现方法，专题阅读入口已开放。</p>
+            </li>
+            <li>
+              <time>2026-11-12</time>
+              <h4>创作激励计划第二期开始报名</h4>
+              <p>面向持续投稿的用户，提供归档工具包与专题推荐位。报名截止 12 月 5 日，细则见帮助中心。</p>
+            </li>
+            <li>
+              <time>2026-11-06</time>
+              <h4>线索核查流程升级说明</h4>
+              <p>新增自动去重与格式校验环节，人工复核后统一标注可信等级，公开页面同步展示更新记录。</p>
+            </li>
+            <li>
+              <time>2026-10-28</time>
+              <h4>与 26 家内容机构建立合作关系</h4>
+              <p>合作范围覆盖影像存档、地方记录与独立创作，共同维护中文影像索引的完整性。</p>
+            </li>
+            <li>
+              <time>2026-10-15</time>
+              <h4>创作者档案页改版完成</h4>
+              <p>新增作品时间线与贡献统计，方便读者了解长期记录者的完整脉络。</p>
+            </li>
+          </ul>
+        </div>
+        <aside class="k7-inspire">
+          <h3>创作灵感 · 本周选题建议</h3>
+          <p>由编辑团队整理的三个可执行方向，适合直接拿去开拍或开写。</p>
+          <ul class="k7-inspire-list">
+            <li><i>01</i><div><b>「我最后一次打开它」</b><span>记录一个你再也打不开的地址，讲清楚它对你意味着什么。</span></div></li>
+            <li><i>02</i><div><b>「备份的三种方式」</b><span>对比你正在用的归档方法，说明优缺点与真实成本。</span></div></li>
+            <li><i>03</i><div><b>「一次失败的修复」</b><span>不追求成功叙事，讲讲尝试之后的现实结果。</span></div></li>
+          </ul>
+          <button class="k7-btn k7-btn-primary" style="margin-top:18px;width:100%;justify-content:center" data-k7-open="submit">提交我的选题</button>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 合作品牌 -->
+  <section class="k7-sec k7-partners">
+    <div class="k7-wrap">
+      <div class="k7-sec-head">
+        <div>
+          <span class="k7-kicker">合作品牌与伙伴</span>
+          <h2>共同维护内容生态</h2>
+        </div>
+      </div>
+      <div class="k7-partner-row">
+        <div class="k7-partner">拾光影像<small>影像存档</small></div>
+        <div class="k7-partner">南岸工作室<small>独立创作</small></div>
+        <div class="k7-partner">见山记录<small>地方影像</small></div>
+        <div class="k7-partner">白昼计划<small>青年扶持</small></div>
+        <div class="k7-partner">索引实验室<small>工具支持</small></div>
+        <div class="k7-partner">归林文化<small>内容合作</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="k7-sec k7-faq" id="k7-faq">
+    <div class="k7-wrap">
+      <div class="k7-sec-head" style="justify-content:center;text-align:center">
+        <div>
+          <span class="k7-kicker" style="justify-content:center">帮助中心</span>
+          <h2 style="margin-top:8px">常见问题</h2>
+          <p style="margin:6px auto 0">关于线索提交、核查标准与内容合作，这里集中解答。</p>
+        </div>
+      </div>
+      <div class="k7-faq-list">
+        <details open>
+          <summary>提交一条线索需要提供哪些信息？</summary>
+          <p>至少需要原始地址、发现失效的时间、你最后一次确认它可访问的时间，以及一句简短的内容描述。如果能提供截图或相似内容作为参考，核查效率会明显提高。</p>
+        </details>
+        <details>
+          <summary>「已核查」和「待确认」有什么区别？</summary>
+          <p>已核查表示我们的人工团队已经复现并记录了状态变化，页面会标注核查时间；待确认表示线索已收录，但尚未完成复核，仅供参考，不建议作为结论引用。</p>
+        </details>
+        <details>
+          <summary>为什么有些线索没有公开完整地址？</summary>
+          <p>出于对内容版权与创作者意愿的尊重，部分线索会做脱敏处理，只保留可辨识的信息结构与核查说明。我们会在界面中明确标注该条目为部分公开。</p>
+        </details>
+        <details>
+          <summary>我可以申请删除与自己有关的线索吗？</summary>
+          <p>可以。请通过联系入口提交身份说明与具体条目编号，我们在核实后会按照你的意愿进行下架、脱敏或保留说明，处理结果会以邮件形式反馈。</p>
+        </details>
+        <details>
+          <summary>平台是否接受商业合作与内容共建？</summary>
+          <p>接受。我们与内容机构、独立工作室、高校研究团队均有合作形式，包括联合专题、数据共建与工具支持。请在联系入口留下合作方向与基本介绍。</p>
+        </details>
+        <details>
+          <summary>创作者入驻后可以获得什么？</summary>
+          <p>包括个人档案页、作品时间线、专题推荐位以及归档工具包。我们不会承诺流量，但会保证认真对待每一次投稿与更新。</p>
+        </details>
+        <details>
+          <summary>内容多久更新一次？</summary>
+          <p>线索库每日整理，专题企划每月一期，企业动态按周发布。所有公开页面都会显示最近一次确认时间，方便你判断信息的时效性。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系 -->
+  <section class="k7-sec k7-contact" id="k7-contact">
+    <div class="k7-wrap">
+      <div class="k7-contact-in">
+        <div>
+          <span class="k7-kicker" style="color:#31d0c6">联系我们</span>
+          <h2 style="margin-top:10px">一起把这份索引做得更完整</h2>
+          <p>无论你是一条线索的提交者、一位长期记录的创作者，还是希望共建内容生态的机构，我们都愿意认真读你的来信。品牌官网承诺：所有合作与投稿询问，均在 3 个工作日内回复。</p>
+          <div class="k7-contact-btns">
+            <button class="k7-btn k7-btn-primary" data-k7-open="submit">投稿 / 入驻</button>
+            <button class="k7-btn k7-btn-ghost" style="color:#e9eef5;border-color:rgba(255,255,255,.3)" data-k7-open="report">问题反馈</button>
+            <button class="k7-btn k7-btn-dark" id="k7-share-btn">复制本页链接</button>
+          </div>
+        </div>
+        <div class="k7-contact-card">
+          <h3>官方渠道</h3>
+          <ul>
+            <li><span>内容合作</span><b>partner@archive7086.cn</b></li>
+            <li><span>线索核查</span><b>check@archive7086.cn</b></li>
+            <li><span>媒体联络</span><b>press@archive7086.cn</b></li>
+            <li><span>工作时间</span><b>周一至周五 10:00–18:00</b></li>
+            <li><span>办公地址</span><b>杭州市拱墅区记录路 86 号 5F</b></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="k7-footer">
+  <div class="k7-footer-in">
+    <div class="k7-footer-top">
+      <div class="k7-footer-brand">
+        <strong>7086失效地址最新</strong>
+        <p>专注影像链接失效监测与内容收录的品牌官网。我们持续运营这份公开索引，坚持真实、可回溯、有温度的记录原则，为创作者与用户搭建值得信赖的内容生态。</p>
+      </div>
+      <div class="k7-footer-col">
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#k7-focus">焦点内容</a></li>
+          <li><a href="#k7-flow">影像流</a></li>
+          <li><a href="#k7-topics">专题企划</a></li>
+          <li><a href="#k7-creators">创作者</a></li>
+        </ul>
+      </div>
+      <div class="k7-footer-col">
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#k7-about">品牌故事</a></li>
+          <li><a href="#k7-news">企业动态</a></li>
+          <li><a href="#k7-faq">帮助中心</a></li>
+          <li><a href="#k7-contact">联系方式</a></li>
+        </ul>
+      </div>
+      <div class="k7-footer-col">
+        <h4>参与</h4>
+        <ul>
+          <li><a href="#" data-k7-open="submit">投稿线索</a></li>
+          <li><a href="#" data-k7-open="submit">创作者入驻</a></li>
+          <li><a href="#" data-k7-open="report">问题反馈</a></li>
+          <li><a href="#k7-contact">商务合作</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="k7-footer-bottom">
+      <span>© 2026 7086失效地址最新 官方网站 · 版权所有 · 持续运营中</span>
+      <span>浙ICP备2026017086号-2 · 内容均为原创或经授权发布</span>
+    </div>
+  </div>
+</footer>
+
+<button class="k7-top" id="k7-top-btn" aria-label="回到顶部">↑</button>
+<div class="k7-toast" id="k7-toast" role="status" aria-live="polite"></div>
+
+<div class="k7-modal" id="k7-modal-submit">
+  <div class="k7-modal-box">
+    <button class="k7-modal-close" data-k7-close aria-label="关闭">×</button>
+    <h3>投稿线索 / 创作者入驻</h3>
+    <p class="k7-modal-sub">填写后由编辑团队在 3 个工作日内回复，请留下可用联系方式。</p>
+    <form id="k7-form-submit">
+      <label for="k7-f-name">称呼</label>
+      <input id="k7-f-name" type="text" placeholder="你希望我们怎么称呼你" required>
+      <label for="k7-f-type">提交类型</label>
+      <select id="k7-f-type">
+        <option>失效线索</option>
+        <option>创作者入驻</option>
+        <option>选题提案</option>
+        <option>内容合作</option>
+      </select>
+      <label for="k7-f-contact">联系方式</label>
+      <input id="k7-f-contact" type="text" placeholder="邮箱或社交账号" required>
+      <label for="k7-f-desc">内容说明</label>
+      <textarea id="k7-f-desc" placeholder="请简述线索来源、发现时间或你的创作方向" required></textarea>
+      <div class="k7-modal-foot">
+        <button type="button" class="k7-btn k7-btn-ghost k7-btn-sm" data-k7-close>取消</button>
+        <button type="submit" class="k7-btn k7-btn-primary k7-btn-sm">提交</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="k7-modal" id="k7-modal-report">
+  <div class="k7-modal-box">
+    <button class="k7-modal-close" data-k7-close aria-label="关闭">×</button>
+    <h3>问题反馈</h3>
+    <p class="k7-modal-sub">发现线索信息有误或页面异常，请告诉我们具体位置。</p>
+    <form id="k7-form-report">
+      <label for="k7-r-type">问题类型</label>
+      <select id="k7-r-type">
+        <option>线索信息有误</option>
+        <option>内容侵权</option>
+        <option>页面功能异常</option>
+        <option>其他建议</option>
+      </select>
+      <label for="k7-r-desc">问题描述</label>
+      <textarea id="k7-r-desc" placeholder="请说明具体条目或页面位置" required></textarea>
+      <div class="k7-modal-foot">
+        <button type="button" class="k7-btn k7-btn-ghost k7-btn-sm" data-k7-close>取消</button>
+        <button type="submit" class="k7-btn k7-btn-primary k7-btn-sm">发送反馈</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="k7-modal" id="k7-modal-author">
+  <div class="k7-modal-box" id="k7-author-box">
+    <button class="k7-modal-close" data-k7-close aria-label="关闭">×</button>
+    <div id="k7-author-content"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById('k7-toast');
+  var toastTimer = null;
+  function toast(msg){
+    if(!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('show'); }, 2200);
+  }
+
+  /* 移动端导航 */
+  var burger = document.getElementById('k7-burger');
+  var nav = document.getElementById('k7-nav');
+  if(burger && nav){
+    burger.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        nav.classList.remove('open');
+        burger.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  /* 导航高亮 */
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('#k7-nav a'));
+  var sections = navLinks.map(function(a){
+    var id = a.getAttribute('href');
+    return id && id.length > 1 ? document.querySelector(id) : null;
+  });
+  function syncNav(){
+    var pos = window.scrollY + 160;
+    var idx = 0;
+    sections.forEach(function(sec, i){
+      if(sec && sec.offsetTop <= pos) idx = i;
+    });
+    navLinks.forEach(function(a, i){ a.classList.toggle('is-active', i === idx); });
+  }
+  window.addEventListener('scroll', syncNav, {passive:true});
+  syncNav();
+
+  /* 搜索提示 */
+  var searchForm = document.getElementById('k7-search');
+  var searchInput = document.getElementById('k7-search-input');
+  var searchTip = document.getElementById('k7-search-tip');
+  var index = [
+    {t:'三个月追踪：一批地址迁移的完整时间轴', k:'线索追踪'},
+    {t:'失效前的 6 个信号：可观察的预警清单', k:'线索追踪'},
+    {t:'从 4 小时素材到 9 分钟成片', k:'创作幕后'},
+    {t:'深夜工作台：声音设计如何改变情绪', k:'创作幕后'},
+    {t:'访谈｜坚持做备份的人，后来都怎么样了', k:'人物访谈'},
+    {t:'我们和五位新人创作者聊了聊第一次发布', k:'人物访谈'},
+    {t:'一份可复用的地址归档模板', k:'实用技巧'},
+    {t:'别只收藏：让线索真正被用起来的三个动作', k:'实用技巧'},
+    {t:'旧街巷里的影像记忆：一座小城的十年记录', k:'在地文化'},
+    {t:'七月线索合辑：被中断的观看', k:'专题企划'},
+    {t:'备份者的日常：习惯、成本与误会', k:'专题企划'},
+    {t:'内容生命周期：从发布到被遗忘', k:'专题企划'},
+    {t:'创作者档案 · 林致远', k:'创作者'},
+    {t:'创作者档案 · 顾南枝', k:'创作者'},
+    {t:'创作者档案 · 何叙白', k:'创作者'},
+    {t:'创作者档案 · 沈知微', k:'创作者'}
+  ];
+  function renderTip(q){
+    if(!searchTip) return;
+    var kw = (q || '').trim().toLowerCase();
+    if(!kw){ searchTip.classList.remove('show'); searchTip.innerHTML=''; return; }
+    var hits = index.filter(function(item){
+      return item.t.toLowerCase().indexOf(kw) > -1 || item.k.toLowerCase().indexOf(kw) > -1;
+    }).slice(0, 6);
+    if(!hits.length){
+      searchTip.innerHTML = '<li class="k7-search-empty">没有找到相关条目，换个关键词试试</li>';
+    }else{
+      searchTip.innerHTML = hits.map(function(item){
+        return '<li><span>' + item.t + '</span><em>' + item.k + '</em></li>';
+      }).join('');
+    }
+    searchTip.classList.add('show');
+  }
+  if(searchInput){
+    searchInput.addEventListener('input', function(){ renderTip(this.value); });
+    searchInput.addEventListener('focus', function(){ renderTip(this.value); });
+  }
+  if(searchForm){
+    searchForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      var kw = searchInput.value.trim();
+      if(!kw){
+        toast('请输入关键词后再搜索');
+        return;
+      }
+      var hit = index.filter(function(item){
+        return item.t.toLowerCase().indexOf(kw.toLowerCase()) > -1;
+      });
+      if(hit.length){
+        toast('找到 ' + hit.length + ' 条相关内容，正在定位影像流');
+        document.getElementById('k7-flow').scrollIntoView({behavior:'smooth'});
+        var first = document.querySelector('#k7-video-grid .k7-card h3 a');
+        if(first){ first.focus({preventScroll:true}); }
+      }else{
+        toast('暂无匹配条目，试试「线索」「幕后」或「访谈」');
+      }
+      if(searchTip) searchTip.classList.remove('show');
+    });
+  }
+  document.addEventListener('click', function(e){
+    if(searchTip && !searchForm.contains(e.target)) searchTip.classList.remove('show');
+  });
+
+  /* 筛选 */
+  var filterBtns = Array.prototype.slice.call(document.querySelectorAll('#k7-filters .k7-filter'));
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#k7-video-grid .k7-card'));
+  filterBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      filterBtns.forEach(function(b){ b.classList.remove('is-active'); });
+      btn.classList.add('is-active');
+      var cat = btn.getAttribute('data-filter');
+      var shown = 0;
+      cards.forEach(function(card){
+        var ok = (cat === 'all' || card.getAttribute('data-cat') === cat);
+        card.style.display = ok ? '' : 'none';
+        if(ok) shown++;
+      });
+      var empty = document.getElementById('k7-grid-empty');
+      if(!shown){
+        if(!empty){
+          empty = document.createElement('div');
+          empty.id = 'k7-grid-empty';
+          empty.className = 'k7-empty';
+          empty.textContent = '该分类暂时没有条目，欢迎投稿补充。';
+          document.getElementById('k7-video-grid').appendChild(empty);
+        }
+      }else if(empty){
+        empty.remove();
+      }
+    });
+  });
+
+  /* 点赞 */
+  document.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('[data-like]');
+    if(!likeBtn) return;
+    var numEl = likeBtn.querySelector('[data-like-num]');
+    var on = likeBtn.classList.toggle('is-on');
+    likeBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    if(numEl){
+      var n = parseInt(numEl.textContent, 10) || 0;
+      numEl.textContent = on ? (n + 1) : Math.max(0, n - 1);
+    }
+    toast(on ? '已加入你的喜欢列表' : '已取消点赞');
+  });
+
+  /* 弹窗 */
+  function openModal(id){
+    var m = document.getElementById('k7-modal-' + id);
+    if(m) m.classList.add('show');
+  }
+  function closeModal(m){
+    if(m) m.classList.remove('show');
+  }
+  document.addEventListener('click', function(e){
+    var opener = e.target.closest('[data-k7-open]');
+    if(opener){
+      e.preventDefault();
+      openModal(opener.getAttribute('data-k7-open'));
+      return;
+    }
+    var closer = e.target.closest('[data-k7-close]');
+    if(closer){
+      var box = closer.closest('.k7-modal');
+      closeModal(box);
+      return;
+    }
+    if(e.target.classList && e.target.classList.contains('k7-modal')){
+      closeModal(e.target);
+    }
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){
+      document.querySelectorAll('.k7-modal.show').forEach(function(m){ m.classList.remove('show'); });
+    }
+  });
+
+  var submitForm = document.getElementById('k7-form-submit');
+  if(submitForm){
+    submitForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      closeModal(document.getElementById('k7-modal-submit'));
+      toast('提交成功，我们会在 3 个工作日内回复你');
+      submitForm.reset();
+    });
+  }
+  var reportForm = document.getElementById('k7-form-report');
+  if(reportForm){
+    reportForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      closeModal(document.getElementById('k7-modal-report'));
+      toast('反馈已收到，感谢你帮助我们改进');
+      reportForm.reset();
+    });
+  }
+
+  /* 作者档案 */
+  var authors = {
+    lin:{name:'林致远', color:'#ff5a3c', craft:'线索追踪 · 深度观察', works:'126', fans:'2.4万', desc:'前媒体编辑，专注于把失效事件还原成可读的过程记录，擅长时间轴与证据链整理。近两年持续整理平台迁移相关的公开线索，主张「先记录，再解释」。'},
+    gu:{name:'顾南枝', color:'#0f7d76', craft:'创作幕后 · 剪辑分享', works:'88', fans:'1.9万', desc:'独立影像作者，偏好把过程完整放出来，包括失败的尝试。作品克制、节奏缓慢，常以长镜头与静默段落推进叙事。'},
+    he:{name:'何叙白', color:'#b07a12', craft:'人物访谈 · 行业观察', works:'64', fans:'1.5万', desc:'擅长提问，也擅长等待回答。关注内容行业里那些不常被讨论的日常细节，访谈稿多采用近乎速记的平实语言。'},
+    shen:{name:'沈知微', color:'#4b3f6e', craft:'实用技巧 · 工具模板', works:'103', fans:'2.1万', desc:'信息管理爱好者，制作过十余套公开模板，主张「先能用，再好看」。其归档模板被多家内容团队采用。'}
+  };
+  var authorBox = document.getElementById('k7-author-content');
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-author]');
+    if(!btn) return;
+    var a = authors[btn.getAttribute('data-author')];
+    if(!a || !authorBox) return;
+    authorBox.innerHTML =
+      '<div class="k7-author-modal-avatar" style="background:' + a.color + '">' + a.name.charAt(0) + '</div>' +
+      '<h3>' + a.name + '</h3>' +
+      '<p class="k7-modal-sub" style="margin-bottom:0">' + a.craft + '</p>' +
+      '<div class="k7-author-modal-stats">' +
+        '<div><b>' + a.works + '</b><span>公开作品</span></div>' +
+        '<div><b>' + a.fans + '</b><span>关注人数</span></div>' +
+        '<div><b>官方</b><span>认证创作者</span></div>' +
+      '</div>' +
+      '<p style="font-size:13.5px;color:#3a434d">' + a.desc + '</p>' +
+      '<div class="k7-modal-foot">' +
+        '<button type="button" class="k7-btn k7-btn-ghost k7-btn-sm" data-k7-close>关闭</button>' +
+        '<button type="button" class="k7-btn k7-btn-primary k7-btn-sm" data-k7-open="submit">联系 Ta</button>' +
+      '</div>';
+    openModal('author');
+  });
+
+  /* 复制链接 */
+  var shareBtn = document.getElementById('k7-share-btn');
+  if(shareBtn){
+    shareBtn.addEventListener('click', function(){
+      var url = window.location.href;
+      function done(){ toast('链接已复制，可以分享给同好'); }
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(url).then(done).catch(fallback);
+      }else{
+        fallback();
+      }
+      function fallback(){
+        var ta = document.createElement('textarea');
+        ta.value = url;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        try{ document.execCommand('copy'); done(); }
+        catch(err){ toast('复制失败，请手动选择地址栏内容'); }
+        document.body.removeChild(ta);
+      }
+    });
+  }
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('k7-top-btn');
+  function syncTop(){
+    if(!topBtn) return;
+    topBtn.classList.toggle('show', window.scrollY > 560);
+  }
+  window.addEventListener('scroll', syncTop, {passive:true});
+  syncTop();
+  if(topBtn){
+    topBtn.addEventListener('click', function(){
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+  }
+
+})();
+</script>
+</body>
+              </html>
